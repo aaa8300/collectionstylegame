@@ -1,49 +1,27 @@
-# Collection Style Game Starter Code
-This is a place for you to start building your Collection Style Game Project!
+# Space Cleanup Game
 
-### Project Requirements
-Your project should:
-- Include a falling object sprite that falls from random positions during the game. 
-- Include a catcher sprite that moves left and right when the arrow keys are pressed. 
-- Detect collision when the falling object collides with the catcher.
-- Include a score variable.
-- Increase the score when the falling object collides with the catcher.
-- Optional:
-  - Include three images: one in the background, one for your catcher sprite, and one for your falling object sprite.
-  - Include citations for your images in your project’s README file. 
+## About
 
-### Optional Spice Level + Extensions
-You can extend your project further by:
-- Trying a Spice Level Challenge (See Part 5)
-- Adding another falling object (See HQ for details)
-- Adding a home screen (See HQ for details)
-- Adding another level (See HQ for details)
+A fun and educational space-themed game where you control a catcher bin to intercept falling space debris before it reaches Earth. Use the left and right arrow keys to move your bin and catch trash to protect the planet!
 
-###  Attributions
-*If you used any code, ideas, images, or resources from another person or group of people, tell us about it here. Make sure it is in the public domain, has a license that allows you to use it, or is one of your own.
-- Add here if applicable
+## How It Works
 
----
+- Use the left and right arrow keys to move the catcher bin.
+- Catch falling space trash to score points.
+- Prevent space junk from reaching Earth — if too much escapes, you lose!
+- Reach a certain score to win the mission.
 
-## File Overview
+## How I Made It
 
-### ← script.js
+I created this game by modifying a base collection-style game during the **Girls Who Code 2025 Summer Immersion Program**. Using **p5.js** and the **p5play** library, I customized the visuals with space-themed assets like a starry background, trash images, and a space bin catcher. I built gameplay mechanics to track score, manage win and lose conditions, and designed an engaging start screen with mission instructions. This project involved working with sprites, handling keyboard input, and managing different game states in JavaScript.
 
-This is where we will add the JavaScript code for our game.
+## What I Learned & Challenges
 
-### ← assets
+This project helped me strengthen my skills in JavaScript game development, especially using the p5.js ecosystem. I learned how to:
 
-Drag in assets, like images, to add them to your project. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg` or `assets/example.png`.
+- Work with sprites and animations using p5play.
+- Handle user input to move game objects smoothly.
+- Manage game states such as start screen, active gameplay, win, and lose conditions.
+- Implement collision detection and score tracking.
 
-### ← index.html
-
-The HTML file contains HTML code that sets up a webpage for our game. We also add libraries in this file using HTML tags.
-
-### ← README.md
-
-That's this file. This is the place to tell people more about what your game does and how you built it. 
-
-### ← style.css
-
-The CSS file adds styling rules to your content like changing colors and fonts. We will not use this file for our game and instead update the style of our game in the script.js file.  
-
+One challenge I faced was properly positioning and updating text on different screens (start, win, lose) to ensure clarity and good user experience. Also, organizing the assets and making sure all files load correctly was a practical lesson in project structure and debugging.
