@@ -8,7 +8,7 @@ A fun and educational space-themed game where you control a catcher bin to inter
 
 - Use the left and right arrow keys to move the catcher bin.
 - Catch falling space trash to score points.
-- Prevent space junk from reaching Earth — if too much escapes, you lose!
+- Prevent space junk from reaching Earth — if too much escapes, you lose
 - Reach a certain score to win the mission.
 
 ## How I Made It
@@ -17,11 +17,11 @@ I created this game by modifying a base collection-style game during the **Girls
 
 ## What I Learned & Challenges
 
-This project helped me strengthen my skills in JavaScript game development, especially using the p5.js ecosystem. I learned how to:
+This project helped me strengthen my skills in JavaScript game development, especially using p5.js. I learned how to:
 
 - Work with sprites and animations using p5play.
 - Handle user input to move game objects smoothly.
 - Manage game states such as start screen, active gameplay, win, and lose conditions.
 - Implement collision detection and score tracking.
 
-One challenge I faced was properly positioning and updating text on different screens (start, win, lose) to ensure clarity and good user experience. Also, organizing the assets and making sure all files load correctly was a practical lesson in project structure and debugging.
+One challenge I faced was properly positioning and updating text on different screens (start, win, lose) to ensure clarity and good user experience and also organizing the assets and making sure all files load correctly from replit onto github.
